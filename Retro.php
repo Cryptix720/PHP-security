@@ -34,5 +34,5 @@ if ( $stmt ) {
  }  // clean up statement resource
  mysqli_stmt_close( $stmt );
 }
-mysqli_close( $connect )"\n";
+mysqli_close( $connect )"\w+";
 ?> 
